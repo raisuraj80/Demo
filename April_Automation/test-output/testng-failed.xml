@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Tools_QA]">
+  <test thread-count="5" name="LaunchURl(failed)">
+    <classes>
+      <class name="Test.Login_Page_ToolsQA_Test">
+        <methods>
+          <include name="resultanalysis"/>
+          <include name="clickon_Element"/>
+        </methods>
+      </class> <!-- Test.Login_Page_ToolsQA_Test -->
+    </classes>
+  </test> <!-- LaunchURl(failed) -->
+  <test thread-count="5" name="Text_Box(failed)">
+    <classes>
+      <class name="Test.Text_Box_Test">
+        <methods>
+          <include name="fildata_textbox"/>
+          <include name="resultanalysis"/>
+          <include name="getdata_textbox"/>
+        </methods>
+      </class> <!-- Test.Text_Box_Test -->
+    </classes>
+  </test> <!-- Text_Box(failed) -->
+  <test thread-count="5" name="CheckBox(failed)">
+    <classes>
+      <class name="Test.CheckBox_Test">
+        <methods>
+          <include name="Getverify_excelfile"/>
+          <include name="checkbox_expnd"/>
+          <include name="Excelclick"/>
+          <include name="resultanalysis"/>
+        </methods>
+      </class> <!-- Test.CheckBox_Test -->
+    </classes>
+  </test> <!-- CheckBox(failed) -->
+  <test thread-count="5" name="Alerts_Test(failed)">
+    <classes>
+      <class name="Test.Alerts_Test">
+        <methods>
+          <include name="Clickme2"/>
+          <include name="Click_Alert"/>
+          <include name="resultanalysis"/>
+        </methods>
+      </class> <!-- Test.Alerts_Test -->
+    </classes>
+  </test> <!-- Alerts_Test(failed) -->
+  <test thread-count="5" name="Wrb_Table_test(failed)">
+    <classes>
+      <class name="Test.Wrb_Table_test">
+        <methods>
+          <include name="fildata"/>
+          <include name="resultanalysis"/>
+          <include name="Click_web_table"/>
+        </methods>
+      </class> <!-- Test.Wrb_Table_test -->
+    </classes>
+  </test> <!-- Wrb_Table_test(failed) -->
+</suite> <!-- Failed suite [Tools_QA] -->

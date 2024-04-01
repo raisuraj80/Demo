@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Tools_QA">
+	<test name="LaunchURl">
+		<classes>
+			<class name="Test.Login_Page_ToolsQA_Test"></class>
+		</classes>
+	</test>
+
+	<test name="Text_Box">
+		<classes>
+			<class name="Test.Text_Box_Test"></class>
+		</classes>
+	</test>
+	
+	<test name="CheckBox">
+		<classes>
+			<class name="Test.CheckBox_Test"></class>
+		</classes>
+	</test>
+</suite>
